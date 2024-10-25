@@ -47,6 +47,19 @@ func manualMainnetTokenList() []TokenMetadata {
 
 		{TokenChain: sdk.ChainIDBase, TokenAddress: "000000000000000000000000F8B1b47AA748F5C7b5D0e80C726a843913EB573a", Symbol: "LTAI", CoingeckoID: "libertai", Decimals: 18},  // Addr: 0xF8B1b47AA748F5C7b5D0e80C726a843913EB573a
 		{TokenChain: sdk.ChainIDSolana, TokenAddress: "0b79728a2e447e402381cc8987ffe53f59b9dd170ee673994c6a790cadc67778", Symbol: "LTAI", CoingeckoID: "libertai", Decimals: 9}, // Addr: mntpN8z1d29f3MWhMD7VqZFpeYmbD88MgwS3Bkz8y7u
+
+		{TokenChain: sdk.ChainIDEthereum, TokenAddress: "00000000000000000000000076e222b07c53d28b89b0bac18602810fc22b49a8", Symbol: "JOE", CoingeckoID: "joe-coin", Decimals: 18}, // Addr: 0x76e222b07C53D28b89b0bAc18602810Fc22B49A8
+		{TokenChain: sdk.ChainIDSolana, TokenAddress: "2e5794ab9bd16e101a23c807798fdedca92bed04560bcf7f0caf56dd1129b30c", Symbol: "JOE", CoingeckoID: "joe-coin", Decimals: 8},    // Addr: 47uDEdzSvmwtWZi4The5upP1gB3i9zaGpCVYYLoJhf79
+
+		{TokenChain: sdk.ChainIDEthereum, TokenAddress: "000000000000000000000000e0f63a424a4439cbe457d80e4f4b51ad25b2c56c", Symbol: "SPX6900", CoingeckoID: "spx6900", Decimals: 8}, // Addr: 0xe0f63a424a4439cbe457d80e4f4b51ad25b2c56c
+		{TokenChain: sdk.ChainIDSolana, TokenAddress: "fd31f4300ca5b00a3e8247b6aad54d9f7bd61b267f608998cc5fe9f2d97c3d45", Symbol: "SPX6900", CoingeckoID: "spx6900", Decimals: 8},   // Addr: J3NKxxXZcnNiMjKw9hYb2K4LUxgwB6t1FtPtQVsv3KFr
+		{TokenChain: sdk.ChainIDBase, TokenAddress: "00000000000000000000000050da645f148798f68ef2d7db7c1cb22a6819bb2c", Symbol: "SPX6900", CoingeckoID: "spx6900", Decimals: 8},     // Addr: 0x50da645f148798f68ef2d7db7c1cb22a6819bb2c
+
+		{TokenChain: sdk.ChainIDEthereum, TokenAddress: "000000000000000000000000fb5c6815ca3ac72ce9f5006869ae67f18bf77006", Symbol: "PSTAKE", CoingeckoID: "pstake-finance", Decimals: 18}, // Addr: 0xfB5c6815cA3AC72Ce9F5006869AE67f18bF77006
+		{TokenChain: sdk.ChainIDSui, TokenAddress: "61017ce4bd0b75b266af53edd60bbe391ba1a9fbe9a7d8553657c94ef73ee2ab", Symbol: "PSTAKE", CoingeckoID: "pstake-finance", Decimals: 8},       // Addr: 61017ce4bd0b75b266af53edd60bbe391ba1a9fbe9a7d8553657c94ef73ee2ab
+
+		{TokenChain: sdk.ChainIDEthereum, TokenAddress: "00000000000000000000000018aaa7115705e8be94bffebde57af9bfc265b998", Symbol: "AUDIO", CoingeckoID: "audius", Decimals: 18}, // Addr: 0x18aaa7115705e8be94bffebde57af9bfc265b998
+		{TokenChain: sdk.ChainIDSolana, TokenAddress: "7bfc33cc2e75c14876cc379283904f49077669112257bb3adff3698b60224940", Symbol: "AUDIO", CoingeckoID: "audius", Decimals: 8},    // Addr: 9LzCMqDgTKYz9Drzqnpgee3SGa89up3a247ypMj2xrqM
 	}
 }
 
